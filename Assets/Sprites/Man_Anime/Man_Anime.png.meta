@@ -1,0 +1,972 @@
+fileFormatVersion: 2
+guid: 1f350080a5e31f54ab4fd7b2c2295c57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 804271493962317050
+    second: Man_Anime_0
+  - first:
+      213: 4794587613111229128
+    second: Man_Anime_1
+  - first:
+      213: 818469255122363468
+    second: Man_Anime_2
+  - first:
+      213: 4664338373840295476
+    second: Man_Anime_3
+  - first:
+      213: 3047928345355811576
+    second: Man_Anime_4
+  - first:
+      213: 2968942644062132305
+    second: Man_Anime_5
+  - first:
+      213: -8102606138952108196
+    second: Man_Anime_6
+  - first:
+      213: -3158792503431873420
+    second: Man_Anime_7
+  - first:
+      213: -6277880495827141084
+    second: Man_Anime_8
+  - first:
+      213: -8911886621178601147
+    second: Man_Anime_9
+  - first:
+      213: -6600877068288193545
+    second: Man_Anime_10
+  - first:
+      213: -4287847699742662982
+    second: Man_Anime_11
+  - first:
+      213: 1435406795857679707
+    second: Man_Anime_12
+  - first:
+      213: 7773828688001456954
+    second: Man_Anime_13
+  - first:
+      213: 7708291974408025330
+    second: Man_Anime_14
+  - first:
+      213: 7858265190552850231
+    second: Man_Anime_15
+  - first:
+      213: -2684993581267172798
+    second: Man_Anime_16
+  - first:
+      213: -5865966936986068168
+    second: Man_Anime_17
+  - first:
+      213: 8342371870908181322
+    second: Man_Anime_18
+  - first:
+      213: 2484978917527311482
+    second: Man_Anime_19
+  - first:
+      213: 7697084999417453893
+    second: Man_Anime_20
+  - first:
+      213: -8535744864025731237
+    second: Man_Anime_21
+  - first:
+      213: -3796411189973218469
+    second: Man_Anime_22
+  - first:
+      213: -7178984959459968923
+    second: Man_Anime_23
+  - first:
+      213: -8616505205045413626
+    second: Man_Anime_24
+  - first:
+      213: 671356933062457542
+    second: Man_Anime_25
+  - first:
+      213: 4388761754366391904
+    second: Man_Anime_26
+  - first:
+      213: -3792679427718551595
+    second: Man_Anime_27
+  - first:
+      213: -2114757717156257363
+    second: Man_Anime_28
+  - first:
+      213: 2081774029409738803
+    second: Man_Anime_29
+  - first:
+      213: 6699168656502022966
+    second: Man_Anime_30
+  - first:
+      213: 2782972002583088635
+    second: Man_Anime_31
+  - first:
+      213: 3985708879943389779
+    second: Man_Anime_32
+  - first:
+      213: 1350464551281828368
+    second: Man_Anime_33
+  - first:
+      213: -85472465218970971
+    second: Man_Anime_34
+  - first:
+      213: -7933746666541451298
+    second: Man_Anime_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Man_Anime_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcb89c99a8592b00800000000000000
+      internalID: 804271493962317050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_1
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca9bf3080cc98240800000000000000
+      internalID: 4794587613111229128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_2
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44a52b7379cb5b00800000000000000
+      internalID: 818469255122363468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_3
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43659fcc90f0bb040800000000000000
+      internalID: 4664338373840295476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_4
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faf6c57eaa6c4a20800000000000000
+      internalID: 3047928345355811576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_5
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15815d9ca9dc33920800000000000000
+      internalID: 2968942644062132305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_6
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c573cd465a2cd8f80800000000000000
+      internalID: -8102606138952108196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_7
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cb6c144f6b924d0800000000000000
+      internalID: -3158792503431873420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_8
+      rect:
+        serializedVersion: 2
+        x: 5679
+        y: 1890
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ebedf53fc70e8a0800000000000000
+      internalID: -6277880495827141084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541e712d55e925480800000000000000
+      internalID: -8911886621178601147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_10
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb09a28749f464a0800000000000000
+      internalID: -6600877068288193545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_11
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abedcdd2c318e74c0800000000000000
+      internalID: -4287847699742662982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_12
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55574f20e69be310800000000000000
+      internalID: 1435406795857679707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_13
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b5115110032eb60800000000000000
+      internalID: 7773828688001456954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_14
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4b59fd5ba59fa60800000000000000
+      internalID: 7708291974408025330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_15
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f48b15e8a2e0d60800000000000000
+      internalID: 7858265190552850231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_16
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242cd54409cfcbad0800000000000000
+      internalID: -2684993581267172798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_17
+      rect:
+        serializedVersion: 2
+        x: 5048
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b52c86626e79ea0800000000000000
+      internalID: -5865966936986068168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_18
+      rect:
+        serializedVersion: 2
+        x: 5679
+        y: 1260
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b61bd440f06c370800000000000000
+      internalID: 8342371870908181322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74dc85d82b6c7220800000000000000
+      internalID: 2484978917527311482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_20
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 630
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd34ca60a81da60800000000000000
+      internalID: 7697084999417453893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_21
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 630
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f916e3541fa8980800000000000000
+      internalID: -8535744864025731237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_22
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 630
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b04501320705bc0800000000000000
+      internalID: -3796411189973218469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_23
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 630
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568348b173f1f5c90800000000000000
+      internalID: -7178984959459968923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_24
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 630
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609b6ff0b260c6880800000000000000
+      internalID: -8616505205045413626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_25
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 630
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8fea8d293215900800000000000000
+      internalID: 671356933062457542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_26
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 630
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06634dc109308ec30800000000000000
+      internalID: 4388761754366391904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d767eba722bd5bc0800000000000000
+      internalID: -3792679427718551595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_28
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1a2ea8f0fd6a2e0800000000000000
+      internalID: -2114757717156257363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_29
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330e9953372f3ec10800000000000000
+      internalID: 2081774029409738803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_30
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633eb3d366a38fc50800000000000000
+      internalID: 6699168656502022966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_31
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd82d1aa4a1f9620800000000000000
+      internalID: 2782972002583088635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_32
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352552feb15105730800000000000000
+      internalID: 3985708879943389779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_33
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01229e4ba50ddb210800000000000000
+      internalID: 1350464551281828368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_34
+      rect:
+        serializedVersion: 2
+        x: 4417
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aadb88ee3750def0800000000000000
+      internalID: -85472465218970971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man_Anime_35
+      rect:
+        serializedVersion: 2
+        x: 5048
+        y: 0
+        width: 631
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed77bda017ba5e190800000000000000
+      internalID: -7933746666541451298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

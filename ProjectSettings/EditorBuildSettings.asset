@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu_Scenes/BeforeEverything.unity
+    guid: 07e819b3b8f493941a99b6947d11258c
+  - enabled: 1
+    path: Assets/Scenes/Menu_Scenes/Opening.unity
+    guid: da8e2c029daa6be4aa75bc70e09989c2
+  - enabled: 1
+    path: Assets/Scenes/Menu_Scenes/Main_Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu_Scenes/Menu_Settings.unity
+    guid: d0b08346d92fe7241bfd7f895c499681
+  - enabled: 1
+    path: Assets/Scenes/Menu_Scenes/Menu_About.unity
+    guid: 29bdda2d9f40d9c4ebb9c70355d895c3
+  - enabled: 1
+    path: Assets/Scenes/Tutor_Scene.unity
+    guid: e89369b42616ca74ea26d64ab5f44645
+  - enabled: 1
+    path: Assets/Scenes/Home_SelfRoom.unity
+    guid: 6ad2cc9daf195ed44a6f806f16a59527
+  - enabled: 1
+    path: Assets/Scenes/Home_LivingRoom.unity
+    guid: e0d76a487e0e6424bb17c1a518eea181
+  - enabled: 1
+    path: Assets/Scenes/Home_BookRoom.unity
+    guid: d6fa6545f301475459d71c62cb24dd1a
+  - enabled: 1
+    path: Assets/Scenes/Home_ComputerPuzzle.unity
+    guid: 44fe4c5d6237d9a44b57cf6927c92afd
+  - enabled: 1
+    path: Assets/Scenes/Home_ParentsRoom.unity
+    guid: aef8faf1632bbd24c9d5cc1a4f037ee8
+  - enabled: 1
+    path: Assets/Scenes/Way_To_Internetbar.unity
+    guid: 854a5290e12c9574987b2023feebf0ce
+  - enabled: 1
+    path: Assets/Scenes/Ch1Ending.unity
+    guid: 77ca76588cc8b4dacb29502baeca2f49
+  - enabled: 1
+    path: Assets/Scenes/School_AB.unity
+    guid: a39aaab1f5e6d054aa18b6c6c8d2ed01
+  - enabled: 1
+    path: Assets/Scenes/Home_LivingRoom_B.unity
+    guid: 610a345c5e9ad1a4583f12b8eb8b05ff
+  - enabled: 1
+    path: Assets/Scenes/TempEnding.unity
+    guid: 2641ee8b65536c54da29c6e4040e2932
+  m_configObjects: {}

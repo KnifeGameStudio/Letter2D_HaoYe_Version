@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Single_Man
+  - Story
+  - Player_Story
+  - Tree
+  - Player_Tree
+  - Spike
+  - Homework_Mons
+  - Hurry
+  - Player_Hurry
+  - Old
+  - Player_Old
+  - Stupid
+  - Player_Stupid
+  - Big_Old
+  - Double_Ear
+  - Invisible
+  - Curve
+  - Player_Curve
+  - DialogueTrigger
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - CanNotRideThings
+  - CanRideThings
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
