@@ -1,8 +1,10 @@
 B
-新闻：教育部门近日发表声明称，去年本科毕业学生就业率仅50%，
+News(新闻): The education department recently stated that last year's employment rate for undergraduate graduates was only 50%.
 B
-本科学生录取率仅10%，部分省份已经低至5%以下。
+The acceptance rate for undergraduate students is only 10%, and in some provinces, it has already dropped below 5%.
 B
-另有分析人士指出，在年收入小于10万的家庭中，
+Additionally, analysts point out that in families with an annual income of less than 100,000,
 B
-子女的本科录取率实际已经低于1%，面对庞大的人口基数和经济下行压力...
+The actual undergraduate admission rate for their children has already fallen below 1%, 
+B
+Facing a large population base and economic downturn pressures...

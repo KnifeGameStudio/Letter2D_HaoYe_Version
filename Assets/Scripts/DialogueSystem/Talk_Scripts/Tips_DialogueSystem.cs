@@ -42,7 +42,7 @@ public class Tips_DialogueSystem : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (textFinish && !cancelTyping)
             {

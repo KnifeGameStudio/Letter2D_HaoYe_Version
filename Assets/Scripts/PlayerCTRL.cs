@@ -264,7 +264,7 @@ public class PlayerCTRL : MonoBehaviour
         else if (timer <= 0)
         {
             Debug.Log("时间到了！！！这么久都没找到骑的？");
-            my_Text.text = "时间到了! 没找到合适的字";
+            my_Text.text = "Time's up! Didn't find the right character.";
             OffRide();
             //重置倒计时
             StartCoroutine(Flash());
@@ -380,7 +380,7 @@ public class PlayerCTRL : MonoBehaviour
                     PlayMagic = true;
                 }
                 gameObject.GetComponent<BoxCollider2D>().enabled = false;
-                my_Text.text = "好神奇，我找到了合适的字！";
+                my_Text.text = "How amazing, I found the right character!";
                 //重置计时时间
                 timer = Try_Riding_Time_Limit;
                 Is_Flash1 = true;
@@ -401,7 +401,7 @@ public class PlayerCTRL : MonoBehaviour
                 timer = Try_Riding_Time_Limit;
                 Is_Flash1 = true;
                 Is_Flash2 = true;
-                my_Text.text = "这个字不合适哦";
+                my_Text.text = "This character isn't suitable.";
                 OffRide();
             }
         }

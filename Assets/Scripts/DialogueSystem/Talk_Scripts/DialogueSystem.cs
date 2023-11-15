@@ -43,7 +43,7 @@ public class DialogueSystem : MonoBehaviour
         
         /*Debug.Log(textList[index]);*/
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             if (textFinish && !cancelTyping)
             {
