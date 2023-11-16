@@ -34,8 +34,8 @@ public class Drawer : MonoBehaviour
             player.GetComponent<PlayerCTRL>().CanRide = false;
             if (!DrawerIsOut && CanInput)
             {
-                my_Text.text = "按E操作抽屉";
-                if (Input.GetAxis("Ride") == 1)
+                my_Text.text = "Press ↑ to operate the drawer(抽屉)";
+                if (Input.GetAxis("Talk") == 1)
                 {
                     SoundManager.playDrawerClip();
                     DrawerIsOut = true;
@@ -46,8 +46,8 @@ public class Drawer : MonoBehaviour
             
             else if (DrawerIsOut && CanInput)
             {
-                my_Text.text = "按E操作抽屉";
-                if (Input.GetAxis("Ride") == 1)
+                my_Text.text = "Press ↑ to operate the drawer(抽屉)";
+                if (Input.GetAxis("Talk") == 1)
                 {
                     SoundManager.playDrawerClip();
                     DrawerIsOut = false;

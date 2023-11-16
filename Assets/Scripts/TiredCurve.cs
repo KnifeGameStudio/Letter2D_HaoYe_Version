@@ -26,7 +26,7 @@ public class TiredCurve : CanBeRided
                 Instantiate(RidingEffectPrefab, transform.position,transform.rotation);
             }
             
-            my_Text.text = "我太累了，快按‘F’让我下来吧";
+            my_Text.text = "I'm too tired, please press 'F' to let me down.";
             if (!playTired)
             {
                 SoundManager.playTiredClip();

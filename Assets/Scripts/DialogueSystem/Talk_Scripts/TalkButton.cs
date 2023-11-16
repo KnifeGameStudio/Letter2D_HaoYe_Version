@@ -31,7 +31,7 @@ public class TalkButton : MonoBehaviour
 
     private void Update()
     {
-        if (Button.activeSelf && Input.GetAxisRaw("Ride") == 1)
+        if (Button.activeSelf && Input.GetKeyDown(KeyCode.UpArrow))
         {
             talkUI.SetActive(true);
         }

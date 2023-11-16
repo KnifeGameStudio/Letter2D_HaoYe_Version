@@ -24,7 +24,7 @@ public class Door_To_Next : Door
         if (other.CompareTag("Player") || other.CompareTag("Invisible"))
         {
             other.GetComponent<PlayerCTRL>().CanRide = false;
-            if (Input.GetAxisRaw("Ride") == 1 && !playDoorSound)
+            if (Input.GetAxisRaw("Talk") == 1 && !playDoorSound)
             {
                 other.GetComponent<PlayerCTRL>().CanInput = false;
                 other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;

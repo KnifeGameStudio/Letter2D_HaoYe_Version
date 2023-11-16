@@ -53,13 +53,13 @@ public class FallingProblem : MonoBehaviour
             if (playerHealth != null && playerHealth.health > 3)
             {
                 playerHealth.DamagePlayer(damage);
-                my_Text.text = "这个题好难啊，得想个办法'做掉'这个题";
+                my_Text.text = "This question(题) is so hard, need to find a way to 'do'(做) with this one";
             }
             
             else if (playerHealth != null && playerHealth.health < 3)
             {
                 playerHealth.DamagePlayer(0);
-                my_Text.text = "快都要被题搞死了，得想个办法'做掉'这个题";
+                my_Text.text = "I'm about to die from the questions(题), I need to find a way to 'do'(做) with this one";
             }
         }
         

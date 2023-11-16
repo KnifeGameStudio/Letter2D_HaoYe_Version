@@ -24,7 +24,7 @@ public class BackSideNoRide : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            my_Text.text = "从这边什么都看不到，你想干嘛";
+            my_Text.text = "You can't see anything from this side. What do you want?";
         }
     }
 }

@@ -50,6 +50,7 @@ public class Homework_Mons : Enemy
     [Header("与作业怪射击相关")] 
     
     public GameObject ProblemPrefab;
+    public GameObject youAreGoodPrefab;
     public float prob_radius;
     public float crazily_prob_waitime;
     private float crazily_prob_waitimer;
@@ -165,7 +166,7 @@ public class Homework_Mons : Enemy
 
         if (crazily_prob_waitimer <= 0)
         {
-            Instantiate(ProblemPrefab, appearPos2, transform.rotation);
+            Instantiate(youAreGoodPrefab, appearPos2, transform.rotation);
             crazily_prob_waitimer = crazily_prob_waitime;
         }
 

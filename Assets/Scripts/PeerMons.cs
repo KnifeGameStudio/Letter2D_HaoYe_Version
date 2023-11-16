@@ -44,12 +44,12 @@ public class PeerMons : MonoBehaviour
         else if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<PlayerHealth>().DamagePlayer(damage);
-            Debug.Log("弱者不要靠近我");
+            Debug.Log("Weaklings, stay away from me!");
         }
         
         else if (other.gameObject.CompareTag("Player_Story"))
         {
-            my_Text.text = "做是什么意思？";
+            my_Text.text = "What does it mean by do(做)";
         }
     }
 

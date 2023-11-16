@@ -54,10 +54,10 @@ public Text my_Text;
             player.GetComponent<PlayerCTRL>().CanRide = false;
             if (!DrawerIsOut && CanInput)
             {
-                my_Text.text = "按E操作抽屉";
+                my_Text.text = "Press ↑ to operate the drawer(抽屉)";
                 if (ParentComes)
                 {
-                    if (Input.GetAxis("Ride") == 1)
+                    if (Input.GetAxis("Talk") == 1)
                     {
                         SoundManager.playDrawerClip();
                         Findit = true;
@@ -68,17 +68,17 @@ public Text my_Text;
                 }
                 else if (!ParentComes)
                 {
-                    if (Input.GetAxis("Ride") == 1)
+                    if (Input.GetAxis("Talk") == 1)
                     {
-                        my_Text.text = "爸妈今天还没有来过，暂时不要打开抽屉吧";
+                        my_Text.text = "Mom and Dad haven't been here yet. Don't open the drawer yet.";
                     }
                 }
             }
 
             else if (DrawerIsOut && CanInput)
             {
-                my_Text.text = "按E操作抽屉";
-                if (Input.GetAxis("Ride") == 1)
+                my_Text.text = "Press ↑ to operate the drawer(抽屉)";
+                if (Input.GetAxis("Talk") == 1)
                 {
                     SoundManager.playDrawerClip();
                     DrawerIsOut = false;

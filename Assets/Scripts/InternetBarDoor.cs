@@ -29,13 +29,13 @@ public class InternetBarDoor : Door
         if (other.gameObject.CompareTag("Player"))
         {
             player.GetComponent<PlayerCTRL>().CanRide = false;
-            if (Input.GetAxisRaw("Ride") == 1 && !playDoorSound)
+            if (Input.GetAxisRaw("Talk") == 1 && !playDoorSound)
             {
                 BGM_Control.GetComponent<AudioSource>().Pause();
                 playDoorSound = true;
                 SoundManager.playLockedDoorClip();
                 outdoorback.GetComponent<OutDoorBack>().WantInternet = true;
-                my_Text.text = "好哇！我就说家里怎么没人，原来跑网吧来鬼混了，反了你了？";
+                my_Text.text = "Alright! I was wondering why no one was at home(屋), turns out you're out messing around at the internet cafe(网吧), have you gone mad?";
                 player.GetComponent<PlayerCTRL>().CanInput = false;
                 player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                 StartCoroutine(parentComingWait());

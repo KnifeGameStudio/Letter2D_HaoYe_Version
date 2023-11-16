@@ -1013,7 +1013,7 @@ MonoBehaviour:
   playDoorSound: 0
   my_Text: {fileID: 512897878}
   player: {fileID: 0}
-  words: "\u6211\u4E0D\u60F3\u518D\u51FA\u53BB\u4E86"
+  words: I don't want to go out again.
 --- !u!1 &204464678
 GameObject:
   m_ObjectHideFlags: 0
@@ -3334,7 +3334,7 @@ MonoBehaviour:
   playDoorSound: 0
   my_Text: {fileID: 512897878}
   player: {fileID: 0}
-  words: "\u6211\u4E0D\u60F3\u518D\u8FDB\u53BB\u4E86"
+  words: I don't want to go in again.
 --- !u!212 &548011396
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6096,7 +6096,7 @@ MonoBehaviour:
   playDoorSound: 0
   my_Text: {fileID: 512897878}
   player: {fileID: 0}
-  words: "\u6211\u4E0D\u60F3\u518D\u8FDB\u53BB\u4E86"
+  words: I don't want to go in again.
 --- !u!1 &1016213619
 GameObject:
   m_ObjectHideFlags: 0

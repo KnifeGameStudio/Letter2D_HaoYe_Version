@@ -24,7 +24,7 @@ public class Home_DoorOut : Door
         if (other.CompareTag("Player"))
         {
             player.GetComponent<PlayerCTRL>().CanRide = false;
-            if (Input.GetAxisRaw("Ride") == 1 && !playDoorSound)
+            if (Input.GetAxisRaw("Talk") == 1 && !playDoorSound)
             {
                 if (PlayerPrefs.GetFloat("computer_Puzzle", 0f) == 1f)
                 {

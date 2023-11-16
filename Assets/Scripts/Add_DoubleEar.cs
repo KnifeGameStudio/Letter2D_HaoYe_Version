@@ -21,8 +21,8 @@ public class Add_DoubleEar : MonoBehaviour
     {
         if (other.CompareTag("Player") && player.GetComponent<PlayerCTRL>().CanRide == false)
         {
-            my_Text.text = "好像有声音，按E试试";
-            Debug.Log("好像有声音，按E试试");
+            my_Text.text = "It sounds like there's a noise, try pressing 'E.'";
+            Debug.Log("It sounds like there's a noise, try pressing 'E.'");
             if (Input.GetAxisRaw("Ride") == 1)
             {
                 other.tag = "Double_Ear";

@@ -24,7 +24,7 @@ public class Door_DontWantGo : Door
         if (other.CompareTag("Player") || other.CompareTag("Invisible"))
         {
             player.GetComponent<PlayerCTRL>().CanRide = false;
-            if (Input.GetAxisRaw("Ride") == 1 && !playDoorSound)
+            if (Input.GetAxisRaw("Talk") == 1 && !playDoorSound)
             {
                 playDoorSound = true;
                 SoundManager.playLockedDoorClip();

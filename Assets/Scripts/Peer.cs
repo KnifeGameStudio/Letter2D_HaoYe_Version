@@ -98,13 +98,13 @@ public class Peer : MonoBehaviour
         else if (other.CompareTag("Player_Old"))
         {
             SoundManager.playQustionClip();
-            my_Text.text = "佬是什么啊，要是有大佬就好了";
+            my_Text.text = "What is '佬'? It would be great if there were big shots(大佬).";
             CanMove = false;
         }
         else if (other.CompareTag("Big_Old"))
         {
             SoundManager.playScaredBreathClip();
-            my_Text.text = "是大佬诶，好厉害";
+            my_Text.text = "Wowww,It's a big shot(大佬), so impressive.";
             CanShake = true;
             CanMove = false;
         }
@@ -120,13 +120,13 @@ public class Peer : MonoBehaviour
         
         else if (other.CompareTag("Player_Old"))
         {
-            my_Text.text = "佬是什么啊，要是有大佬就好了";
+            my_Text.text = "What is '佬'? It would be great if there were big shots(大佬).";
             CanMove = false;
         }
         
         else if (other.CompareTag("Big_Old"))
         {
-            my_Text.text = "是大佬诶，好厉害";
+            my_Text.text = "Wowww,It's a big shot(大佬), so impressive.";
             CanShake = true;
             CanMove = false;
         }

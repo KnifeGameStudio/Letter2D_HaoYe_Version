@@ -1,2 +1,2 @@
 B
-I'm not sure who said it, but it seems like you can approach doors(门） and press "E" to enter.
+I'm not sure who said it, but it seems like you can approach doors(门） and press "↑"(UpArrow) to enter.

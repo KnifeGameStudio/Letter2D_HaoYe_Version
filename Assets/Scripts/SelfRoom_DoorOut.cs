@@ -28,7 +28,7 @@ public class SelfRoom_DoorOut : Door
         if (other.CompareTag("Player"))
         {
             player.GetComponent<PlayerCTRL>().CanRide = false;
-            if (Input.GetAxis("Ride") == 1 && !playDoorSound)
+            if (Input.GetAxis("Talk") == 1 && !playDoorSound)
             {
                 playDoorSound = true;
                 if (homeworkMons != null)
@@ -37,14 +37,14 @@ public class SelfRoom_DoorOut : Door
                     {
                         BGM_Control.GetComponent<AudioSource>().Pause();
                         SoundManager.playLockedDoorClip();
-                        my_Text.text = "快点做题啊，不做完题之前不准出来";
+                        my_Text.text = "Hurry up and do(做) the questions(题). Don't come out until you're done.";
                     }
 
                     else
                     {
                         BGM_Control.GetComponent<AudioSource>().Pause();
                         SoundManager.playLockedDoorClip();
-                        my_Text.text = "作业做完了吗就想出门,这里还有新题，拿去快写!";
+                        my_Text.text = "You want to go out when you're done with your homework(作业)? Here's a new question(题). Take it and do(做) it!";
                         player.GetComponent<PlayerCTRL>().CanInput = false;
                         player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                         StartCoroutine(parentComingWait()); 
@@ -54,7 +54,7 @@ public class SelfRoom_DoorOut : Door
                 else if (homeworkMons == null)
                 {
                     SoundManager.playDoorClip();
-                    my_Text.text = "作业写完了，出去吧";
+                    my_Text.text = "Homework(作业)'s done. Get out.";
                     PlayerPrefs.SetFloat("Home_SelfRoom_x", gameObject.transform.position.x);
                     PlayerPrefs.SetFloat("Home_SelfRoom_y", gameObject.transform.position.y);
                     PlayerPrefs.SetFloat("Home_SelfRoom_z", gameObject.transform.position.z);

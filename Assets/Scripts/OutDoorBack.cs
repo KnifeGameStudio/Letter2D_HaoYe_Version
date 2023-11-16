@@ -37,7 +37,7 @@ public class OutDoorBack : Door
 
         else if (other.CompareTag("Player") && WantInternet)
         {
-            Debug.Log("FUCK!!!!");
+            Debug.Log("!!!!");
             SceneManager.LoadScene("Ch1Ending");
         }
     }

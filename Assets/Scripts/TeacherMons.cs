@@ -297,12 +297,12 @@ public class TeacherMons : Enemy
     {
         if (other.gameObject.CompareTag("Player_Old"))
         {
-            my_Text.text = "佬是什么，我只喜欢大佬";
+            my_Text.text = "What's '佬'? I only like big shots(大佬).";
         }
         
         else if (other.gameObject.CompareTag("Player_Old"))
         {
-            my_Text.text = "佬是什么，我只喜欢大佬";
+            my_Text.text = "What's '佬'? I only like big shots(大佬).";
             Hitted = true;
             CanAttack = false;
         }
@@ -320,7 +320,7 @@ public class TeacherMons : Enemy
         if (other.CompareTag("Player_Old"))
         {
             SoundManager.playQustionClip();
-            my_Text.text = "佬是什么，我只喜欢大佬";
+            my_Text.text = "What's '佬'? I only like big shots(大佬).";
             Hitted = true;
             CanAttack = false;
         }
@@ -329,7 +329,7 @@ public class TeacherMons : Enemy
         {
             SoundManager.playHitHWMonsClip();
             Hearts.GetComponent<Heart_Likes>().IsBigOld = true;
-            my_Text.text = "哇是大佬诶，好牛，好喜欢";
+            my_Text.text = "Wow, it's a big shots(大佬)! So cool, I really like it.";
             CanAttack = false;
             CanShootGood = true;
         }
@@ -348,7 +348,7 @@ public class TeacherMons : Enemy
     {
         if (other.CompareTag("Player_Old"))
         {
-            my_Text.text = "佬是什么，我只喜欢大佬";
+            my_Text.text = "What's '佬'? I only like big shots(大佬).";
             Hitted = true;
             CanAttack = false;
         }

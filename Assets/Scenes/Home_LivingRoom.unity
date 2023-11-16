@@ -7786,7 +7786,8 @@ MonoBehaviour:
   playDoorSound: 0
   my_Text: {fileID: 1467193351}
   player: {fileID: 0}
-  words: "\u4E66\u623F\u91CC\u9762\u6709\u4E2ABug\uFF0C\u4E0D\u4FEE\u597D\u90A3\u4E2ABug\uFF0C\u4EBA\u5C31\u4E0D\u51C6\u51FA\u53BB"
+  words: "There's a bug in the study room(\u4E66\u623F). If you don't fix it, you
+    can't go out."
   ThisDoorTo: Way_To_InternetBar
 --- !u!1 &1201369986
 GameObject:

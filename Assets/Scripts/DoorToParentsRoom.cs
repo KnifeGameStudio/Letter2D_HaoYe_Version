@@ -32,7 +32,7 @@ public class DoorToParentsRoom : Door
     {
         if (other.gameObject.CompareTag("Invisible"))
         {
-            if (Input.GetAxisRaw("Ride") == 1 && !playDoorSound)
+            if (Input.GetAxisRaw("Talk") == 1 && !playDoorSound)
             {
                 playDoorSound = true;
                 SoundManager.playDoorClip();
@@ -44,12 +44,12 @@ public class DoorToParentsRoom : Door
         else if (other.gameObject.CompareTag("Player"))
         {
             player.GetComponent<PlayerCTRL>().CanRide = false;
-            if (Input.GetAxisRaw("Ride") == 1 && !playDoorSound)
+            if (Input.GetAxisRaw("Talk") == 1 && !playDoorSound)
             {
                 playDoorSound = true;
                 SoundManager.playLockedDoorClip();
                 BGM_Control.GetComponent<AudioSource>().Pause();
-                my_Text.text = "你不准进来，大人的事小孩不要管";
+                my_Text.text = "You're not allowed in here. Mind your own business.";
                 player.GetComponent<PlayerCTRL>().CanInput = false;
                 player.GetComponent<Animator>().SetTrigger("No_Move");
                 player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;

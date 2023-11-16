@@ -24,15 +24,15 @@ public class EnterComputer : Door
         if (other.CompareTag("Player") || other.CompareTag("Invisible"))
         {
             other.GetComponent<PlayerCTRL>().CanRide = false;
-            my_Text.text = "按E进入";
-            if (Input.GetAxisRaw("Ride") == 1 && !playDoorSound)
+            my_Text.text = "Press ↑ to Enter";
+            if (Input.GetAxisRaw("Talk") == 1 && !playDoorSound)
             {
                 other.GetComponent<PlayerCTRL>().CanInput = false;
                 other.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                 playDoorSound = true;
                 SoundManager.playComputerWindowsClip();
                 //此处应播进入电脑的声音
-                Debug.Log("FUCK!!!!");
+                Debug.Log("Should be Computer's sound!!!!");
                 PlayerPrefs.SetFloat("Home_BookRoom_x", gameObject.transform.position.x);
                 PlayerPrefs.SetFloat("Home_BookRoom_y", gameObject.transform.position.y);
                 PlayerPrefs.SetFloat("Home_BookRoom_z", gameObject.transform.position.z);
